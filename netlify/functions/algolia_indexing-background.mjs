@@ -9,7 +9,7 @@ export default async (req, context) => {
   console.log('generating objects');
 
   const objects = [];
-  for(var i = 0; i < 1000; i++) {
+  for(var i = 0; i < 24000; i++) {
     objects.push(generate_object(i));
   };
 
